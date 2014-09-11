@@ -19,6 +19,7 @@
 database.yml
 doc/
 .*.s[a-w][a-z]  #all swap files
+.*.*.s[a-w][a-z]
 .*.*.*.s[a-w][a-z]  #.application.html.erb.swp type swap files
 *~
 .project
