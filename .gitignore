@@ -20,8 +20,7 @@ database.yml
 doc/
 #all swap files
 .*.s[a-w][a-z]
-.*.*.s[a-w][a-z]
-.*.*.*.s[a-w][a-z]
+
 *~
 .project
 .DS_Store
