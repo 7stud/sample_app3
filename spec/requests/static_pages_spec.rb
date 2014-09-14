@@ -11,10 +11,16 @@ describe "StaticPages" do
       #response.status.should be(200)
     end
 
-    it "should have title that includes 'Home'" do
+    it "should have the base title" do
       visit '/static_pages/home'
-      expect(page).to have_title("#{base_title} | Home")
+      expect(page).to have_title("Ruby on Rails Tutorial Sample App")
     end
+
+    it "should not have custom page title" do
+      visit '/static_pages/home'
+      expect(page).not_to have_title('Home')
+    end
+    
 
   end
 
