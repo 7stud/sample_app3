@@ -6,6 +6,11 @@ gem 'rails', '4.0.8'
 gem 'pg', '0.15.1' #The version in rails tutorial Gemfile, latest is:
 #gem 'pg', '0.17.1'
 
+#For Bootstrap css
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+
+
 group(:development, :test) do
   #gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
